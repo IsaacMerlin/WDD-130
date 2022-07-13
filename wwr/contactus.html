@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/mylogo.png" alt="Stud Rafting Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rivers.html">Rivers</a>
+            <a href="site-plan-rafting.html">Site Plan</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <style>
+            form{
+                margin: 0 auto;
+                width: 400px;
+                padding:1em;
+                border: 1px solid #ccc;
+                border-radius: 1em;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            form li + li {
+                margin-top: 1em;
+            }
+            label {
+                display: inline-block;
+                width: 90px;
+                text-align: right;
+
+            }
+            input,
+            textarea {
+                font: 1em sans-serif;
+                width: 300px;
+                box-sizing: border-box;
+                border: 1px solid #999;
+            }
+            input:focus,
+            textarea:focus {
+                border-color: #000;
+            }
+            textarea {
+                vertical-align: top;
+                height: 5em;
+            }
+            .button {
+                padding-left: 90px;
+            }
+            .button {
+                margin-left: .5em;
+            }
+
+        </style>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message">Type Here</textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>
+        </form>
+    </main>
+    <footer>
+        <p id="info">Studs and Buds &copy; 2022 - Isaac Prestwich</p>
+       
+      <h3><a class="footer-links" href="site-plan-rafting.html">Site Plan</a></h3>
+       
+      <h3><a class="footer-links" href="contact-us.html">Contact Us</a></h3>
+        
+      <div class="social">
+            <a class="socialmedia" href="https://twitter.com" target="_blank"><img class="icons" src="images/twrsilver.jpeg" alt="Twitter"></a>
+          
+          
+            <a class="socialmedia" href="https://facebook.com" target="_blank"><img class="icons" src="images/neonfacebook.jpg" alt="Facebook"></a>
+          
+          
+           <a class="socialmedia" href="https://paypal.com" target="_blank"><img class="icons" src="images/paypal.png" alt="Paypal"></a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
