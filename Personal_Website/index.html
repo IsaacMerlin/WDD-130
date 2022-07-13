@@ -4,75 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Siteplan</title>
+    <title>Isaac Prestwich's Blog</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo" alt="Home Logo Image">
-        </a>
+    <header class="primary-header">
+        
+
         <nav>
-            <a href="index.html" target="_self">Home</a>
-            <a href="" target="_blank">About Me</a>
-            <a href="" target="_blank">Contact Me</a>
+            <ul id="primary-navigation" class="primary-navigation flex">
+                <li class="active">
+                    <a href="index.html" target="_self">
+                        <span aria=hidden="true"></span>Home
+                    </a>
+                <li>
+                    <a href="aboutme.html" target="_blank">
+                        <span aria-hidden="true"></span>About Me
+                    </a>
+                <li>
+                    <a href="contactme.html" target="_blank">
+                        <span aria-hidden="true"></span>Contact Me
+                    </a>
+            </ul>
         </nav>
-    </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img src="" alt="hero box image" id="hero-img">
+        <div id="logo_link" href="index.html">
+            <img class="logo" src="images/Dj_Floating.webp" alt="Home Logo Image" width=100% height="200px" >
         </div>
-        <section id="hero-msg">
-            <h1 class="home-title">Learn More!</h1>
-            <h4>Isaac's Personal Website</h4>
-            <div class="button-box">
-                <a class="book" href="">Contact Me</a>
+    </header>
+    <section id="hero-msg">
+        <h1 class="home-title" href="contactme.html">Learn More!</h1>
+        <h2>Isaac's Personal Website</h2>
+        <div class="button-box">
+            <a class="book" href="contactme.html">Contact Me</a>
+        </button>
+    </section>
+    <h1>CSS!</h1>
+    <br>
+    <main class="home-grid">
+        <section class="youtube-grid">
+            <h1 class="small-grid">Image Hover Titlt Effect</h1>
+            <div class="large-grid">
+            <iframe class="large-grid" width="420" height="240" src="https://www.youtube.com/embed/A5koWY5S6Q4" title="Image Hover Tilt Effect using Only CSS | CSS3 Card Hover Tilt Effect" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <h1 class="small-grid1">Button Hover Animation Effect</h1>
+            <div class="large-grid1">
+            <iframe class="large-grid" width="420" height="240" src="https://www.youtube.com/embed/zPcvAwp71uA" title="CSS Button Hover Animation Effects using Only HTML & CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
-    </div>
-    <h1>Color Palettes!</h1>
-    <div class="colors">
-        <div class="color1"></div>
-        <div class="color2"></div>
-        <div class="color3"></div>
-        <div class="color4"></div>
-        <div class="color5"></div>
-        <div class="color6">Blank!</div>
-
-    </div>
-    CSS!
-    <div href="https://youtu.be/zPcvAwp71uA">
-        Button Hover Effect
-    </div>
-    <div href="https://youtu.be/A5koWY5S6Q4">
-        Image Hover Tilt Effect
-    </div>
-    
-    <main class="home-grid">
-        <section class="dj-grid">
-            <img class="large-grid" src="images/dj-large" alt="DJ Large Image">
-            <img class="small-grid" src="images/" alt="DJ Small Image">
-            <a class="button" href="dj.html">DJ</a>
-        </section>
-        <section class="pilot-grid">
-            <img class="large-grid" src="images/" alt="Pilot Large Image">
-            <img class="small-grid" src="images/" alt="Pilot Small Image">
-            <a class="button" href="pilot.html">Pilot</a>
+    <h1>Stocks!</h1>
+        <section class="stock-grid">
+            <h1 class="small-grid" id="sign-up">Robinhood sign up</h1>
+            <h1 class="small-grid" id="top-pick">Top picks</h1>
+                <ul id="stock-list">
+                    <li> NNDM</li>
+                    <li> NOK</li>
+                    <li> TSLA</li>
+                </ul>
+            <h1 class="small-grid" id="chart-of-day">Chart of the day</h1>
+            <div id="stock-pic">
+                <img src="images/stock-day.png" height=200em alt="NNDM Stock Price">
+            </div>
+            <div id="youtube">
+            <iframe id="youtube" width=250vh height=250vh src="https://www.youtube.com/embed/Byvij0H8KxM" title="Top 5 Stocks That Could See Big Moves In July" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
         <section class="stock-grid">
-            <img class="large-grid" src="images/" alt="Stock Large Image">
-            <img class="small-grid" src="images/" alt="Stock Small Image">
-            <a class="button" href="stockmarket.html">Stock Market</a>
-        </section>
-        <section class="gym-grid">
-            <img class="large-grid" src="images/" alt="Gym Large Image">
-            <img class="small-grid" src="images/" alt="Gym Small Image">
-            <a class="button" href="gym.html">Gym</a>
-        </section>
-        <section class="portfolio-grid">
-            <img class="large-grid" src="images/" alt="Portfolio Large Image">
-            <img class="small-grid" src="images/" alt="Portfolio Small Image">
-            <a class="button" href="portfolio.html">Portfolio</a>
+            
         </section>
     </main>
 </body>

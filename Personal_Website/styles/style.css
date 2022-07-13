@@ -1,3 +1,7 @@
+body {
+    background-color: #EDF2F4;
+    margin: 0 0 0;
+}
 h1 {
     text-align: center;
 }
@@ -42,4 +46,118 @@ h1 {
     text-align: center;
     font-size: 2em;
     line-height: 3em;
+}
+.youtube-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+}
+.small-grid {
+ grid-row: 1;
+ grid-column: 1;   
+}
+div.large-grid {
+grid-row: 2;
+grid-column: 1;
+text-align: center;
+}
+.small-grid1 {
+    grid-row: 1;
+    grid-column: 2;
+}
+div.large-grid1 {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+}
+
+.youtube-grid h1, .small-grid, .small-grid2 {
+    border-style: none;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2B2D42;
+    color: white;
+    border-radius: 4px;
+    margin: 5px;
+
+}
+h1 {
+    color: #EF233C;
+    border-color: #D90429;
+    border-style: groove;
+}
+.stock-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+#sign-up {
+    grid-column: 3;
+}
+#top-pick {
+    grid-column: 2;
+}
+#chart-of-day {
+    grid-column: 0;
+}
+#stock-list {
+    grid-column: 2;
+    grid-row: 2;
+}
+#stock-pic {
+    grid-column: 3;
+    grid-row:2
+}
+#youtube {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+}
+nav {
+    margin: 10px;
+    margin-inline: 20px;
+}
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+.contact-box {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+form {
+    margin: 35px;
+}
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none; 
+}
+.textarea-field
+{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn
+{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.message {
+    height: 80px;
 }
