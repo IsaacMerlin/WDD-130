@@ -80,7 +80,7 @@ div.large-grid1 {
     color: white;
     border-radius: 4px;
     margin: 5px;
-s
+
 }
 h1 {
     color: #EF233C;
@@ -183,4 +183,10 @@ h5 {
 }
 * {
     font-family: 'Courier New', Courier, monospace;
+}
+a {
+    color: #EDF2F4
+}
+div {
+    color: #EDF2F4
 }
