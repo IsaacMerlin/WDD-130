@@ -1,9 +1,10 @@
 body {
-    background-color: #EDF2F4;
+    background-color: #2B2D42;
     margin: 0 0 0;
 }
 h1 {
     text-align: center;
+    color: #fff;
 }
 .colors {
     display: grid;
@@ -75,11 +76,11 @@ div.large-grid1 {
     border-style: none;
     font-size: 1.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2B2D42;
+    background-color: #EF233C;
     color: white;
     border-radius: 4px;
     margin: 5px;
-
+s
 }
 h1 {
     color: #EF233C;
@@ -121,27 +122,16 @@ nav {
     gap: var(--gap, 1rem);
 }
 .contact-box {
-    width: 500px;
-    background-color: #fff;
-    box-shadow: 0 0 20px 0 #999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
+    width: 100px;
+    transform: translate(-50, -50);
+    }
 form {
     margin: 35px;
 }
 .input-field {
-    width: 400px;
-    height: 40px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid #777;
-    border-radius: 14px;
-    outline: none; 
-}
+    width: 200px;
+    margin: 12px;
+}    
 .textarea-field
 {
     height: 150px;
@@ -150,14 +140,47 @@ form {
 .btn
 {
     border-radius: 20px;
-    color: #fff;
-    margin-top: 18px;
-    padding: 10px;
-    background-color: #47c35a;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
+    
 }
 .message {
     height: 80px;
+}
+.contact-message {
+    border-style: dashed;
+    font-size: 25px;
+    font-weight: bold;
+}
+h2 {
+    color: #EDF2F4;
+}
+.primary-navigation {
+    color: #EDF2F4;
+    text-decoration: none;
+}
+.pleasechange {
+    display: grid;
+    grid-template-columns: auto;
+}
+ul a {
+    text-decoration: none;
+    color: #EDF2F4;
+    margin: 10px;  
+}
+nav ul {
+    grid-column: 2;
+    grid-template: 1;
+}
+.header {
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+h5 {
+    color: #EDF2F4;
+    font-weight: 10;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
 }
