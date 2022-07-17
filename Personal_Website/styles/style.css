@@ -213,3 +213,9 @@ footer h3 {
     display: flex;
     margin: auto;
 }
+#aboutme {
+    margin: 100px;
+    display: block;
+    text-align: center;
+    
+}
