@@ -190,3 +190,26 @@ a {
 div {
     color: #EDF2F4
 }
+footer {
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer ul {
+    display: flex;
+    gap: 100px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0%;
+}
+footer h3 {
+    text-align: right;
+    color: #EDF2F4;
+}
+#header-logo {
+    display: flex;
+    margin: auto;
+}
